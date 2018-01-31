@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Subscript out of range: '[number: 0]'</Name>
+    <ErrorText>Subscript out of range: '[number: 0]'</ErrorText>
+    <Description>&lt;BR/&gt;Line (69): &amp;quot;environment(&amp;quot;TestDataID&amp;quot;)= strTestIds(intTestData-1)&amp;quot;.</Description>
+    <StartTime>2018-01-30 12:36:10</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[environment("TestDataID")= strTestIds(intTestData-1)]]></Scripts>
+          <LineNo><![CDATA[69]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>f3794705954e419692642956786baced</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Test Start: TC001</Name>
+    <Description>myhcl login without credentials</Description>
+    <StartTime>2018-01-30 12:36:10</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>2e3e227ce5284a918ff8a92152e4d9c3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>SubTest Start: StartApp</Name>
+    <Description>Open Internet Explorer</Description>
+    <StartTime>2018-01-30 12:36:10</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\72525388-00d7-4150-94fa-0831f61bc0a6.png</StepCustomImagePath>
+      <IconKey>2e3e227ce5284a918ff8a92152e4d9c3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Step">
+<Data>
+    <Name>My HCL Login</Name>
+    <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;object&amp;nbsp;"My&amp;nbsp;HCL&amp;nbsp;Login"&amp;nbsp;(of&amp;nbsp;class&amp;nbsp;Browser).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;this&amp;nbsp;object's&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = Browser&lt;br&gt;CreationTime = 14&lt;br&gt;|Title = My HCL Login - Internet Explorer&lt;br&gt;openurl = https://www.myhcl.com/Login/home.aspx&lt;br&gt;opentitle = My HCL Login&lt;br&gt;Opened By Testing Tool = 0&lt;br&gt;number of tabs = 1&lt;br&gt;Name = My HCL Login&lt;br&gt;</Description>
+    <StartTime>2018-01-30 12:36:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>myhcl_OR.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[My HCL Login]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;identify&nbsp;the&nbsp;object&nbsp;"My&nbsp;HCL&nbsp;Login"&nbsp;(of&nbsp;class&nbsp;Browser).<br/>Verify&nbsp;that&nbsp;this&nbsp;object's&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+      </TestObject>
+      <IconKey>921c15f080574b3599cb00f6a6e0941b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",3</Name>
+    <StartTime>2018-01-30 12:36:11</StartTime>
+    <Duration>71</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>9db6098e9d5a4f0a8e7ca9581cc2ac5b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 1</Name>
+    <Description>Open the Web Browser and navigate to the URL     Actual Result: 'Cannot identify the object "My HCL Login" (of class Browser).
+Verify that this object's properties match an object currently displayed in your application.'</Description>
+    <StartTime>2018-01-30 12:37:22</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\d9bba07c-ad95-4409-b5d2-e71577962efc.png</StepCustomImagePath>
+      <IconKey>2e3e227ce5284a918ff8a92152e4d9c3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>SubTest End: StartApp</Name>
+    <Description>Open Internet Explorer</Description>
+    <StartTime>2018-01-30 12:37:23</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StepCustomImagePath>Resources\User\b13f2da4-efc7-4015-ae30-d31c9fe68512.png</StepCustomImagePath>
+      <IconKey>2e3e227ce5284a918ff8a92152e4d9c3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Test End: TC001</Name>
+    <Description>myhcl login without credentials</Description>
+    <StartTime>2018-01-30 12:37:23</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>2e3e227ce5284a918ff8a92152e4d9c3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Subscript out of range: '[number: 0]'</Name>
+    <ErrorText>Subscript out of range: '[number: 0]'</ErrorText>
+    <Description>&lt;BR/&gt;Line (69): &amp;quot;environment(&amp;quot;TestDataID&amp;quot;)= strTestIds(intTestData-1)&amp;quot;.</Description>
+    <StartTime>2018-01-30 12:37:23</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[environment("TestDataID")= strTestIds(intTestData-1)]]></Scripts>
+          <LineNo><![CDATA[69]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>f3794705954e419692642956786baced</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>The DataTable.Export (file) operation failed. </Name>
+    <ErrorText>The DataTable.Export (file) operation failed. 
+Cannot open the Resultlog.xls file because access is denied.</ErrorText>
+    <Description>&lt;BR/&gt;Cannot open the Resultlog.xls file because access is denied.&lt;BR/&gt;Line (102): &amp;quot;datatable.Export &amp;quot;Resultlog.xls&amp;quot;&amp;quot;.</Description>
+    <StartTime>2018-01-30 12:37:23</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[datatable.Export "Resultlog.xls"]]></Scripts>
+          <LineNo><![CDATA[102]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>f3794705954e419692642956786baced</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2018-01-30 12:36:09</StartTime>
+    <Duration>74</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="TestCaseID" value="TC001" type="System.String" />
+      <Parameter name="TestCasesFullPath" value="" type="System.String" />
+      <Parameter name="TestDataFullPath" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>e843221378bc40398b650dfbdd7d5700</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-01-30 12:36:09</StartTime>
+    <Duration>74</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>977c0a97956c47d692e06f28bd7c164b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>NGL_DriverScript</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.02</ToolVersion>
+    <Description />
+    <StartTime>2018-01-30 12:36:06</StartTime>
+    <Duration>77</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>1756555a66ea48c38510274a08fa8a89</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (India)</Locale>
+      <User>HCLTECH\prince-c</User>
+      <CpuInfo>Intel(R) Core(TM) i3-2350M CPU @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>4030</TotalMemory>
+      <HostName>DS-CNU2113CC5</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>NGL_DriverScript</ResultName>
+    <RunStartTime>2018-01-30 12:36:06</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.02</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
